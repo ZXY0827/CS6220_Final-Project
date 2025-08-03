@@ -12,12 +12,12 @@ We used the California Housing Prices dataset from Kaggle, which includes both d
 - Distance to the coast
 
 
-🛠️ Dependencies
+3. Dependencies
 Python 3.x
 pandas, numpy, matplotlib, seaborn
 scikit-learn
 
 
-📌 How to Run
+4. How to Run
 You can open the notebook in Google Colab or Jupyter Notebook. The dataset is expected to be named California_Houses.csv.
 Make sure to adjust the path if loading from a different location.
