@@ -23,33 +23,36 @@ We used the California Housing Prices dataset from Kaggle, which includes both d
 - Conduct exploratory data analysis (EDA) including histograms，scatter plots and correlation heatmap.
 - Apply Principal Component Analysis (PCA) for 2D visualization.
 - Train and evaluate four models:
-Linear Regression
-Decision Tree Regressor
-Random Forest Regressor
-Gradient Boosting Regressor
+Linear Regression & 
+Decision Tree Regressor & 
+Random Forest Regressor & 
+Gradient Boosting Regressor & 
 
 Evaluate models using:
-R² score
-Root Mean Squared Error (RMSE)
+R² score & 
+Root Mean Squared Error (RMSE) & 
 Residual plots
 
 4. Key Results
    
 Random Forest achieved the best performance:
-R² ≈ 0.8047
+R² ≈ 0.8047 & 
 RMSE ≈ 43,276.66
 
 Gradient Boosting also performed well (R² ≈ 0.7544).
+
 Linear Regression and Decision Tree underperformed due to oversimplification.
 
 -Residual Analysis showed:
 
 Linear Regression suffers from heteroscedasticity.
+
 Random Forest and Gradient Boosting provided more evenly distributed residuals.
 
 - Feature Importance:
  
 Median Income is the most significant predictor.
+
 Distance to coast and  Latitude also impacts housing prices.
 
 5. Dependencies
