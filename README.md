@@ -7,16 +7,20 @@ This repository contains the final project for CS6220, where we explore and comp
 2. Dataset
    
 We used the California Housing Prices dataset from Kaggle, which includes both demographic and geographic features such as:
+- Median_House_Value (Target Values)
 - Median Income
+- Median_Age
 - Total Rooms and Bedrooms
 - Latitude and Longitude
+- Population
+- Households
 - Distances to major cities (e.g., LA, San Diego, San Jose, San Francisco)
 - Distance to the coast
 
 
 3. Dependencies
-Python 3.x
-pandas, numpy, matplotlib, seaborn
+   
+Python - pandas, numpy, matplotlib, seaborn
 scikit-learn
 
 
