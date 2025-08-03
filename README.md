@@ -26,15 +26,15 @@ We used the California Housing Prices dataset from Kaggle, which includes both d
 Linear Regression & 
 Decision Tree Regressor & 
 Random Forest Regressor & 
-Gradient Boosting Regressor & 
+Gradient Boosting Regressor 
 
-Evaluate models using:
+- Evaluate models using:
 R² score & 
 Root Mean Squared Error (RMSE) & 
 Residual plots
 
 4. Key Results
-   
+
 Random Forest achieved the best performance:
 R² ≈ 0.8047 & 
 RMSE ≈ 43,276.66
@@ -43,7 +43,7 @@ Gradient Boosting also performed well (R² ≈ 0.7544).
 
 Linear Regression and Decision Tree underperformed due to oversimplification.
 
--Residual Analysis showed:
+- Residual Analysis showed:
 
 Linear Regression suffers from heteroscedasticity.
 
